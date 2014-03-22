@@ -814,7 +814,7 @@ static inline void adreno_writereg(struct adreno_device *adreno_dev,
  * adreno_getreg() - Returns the offset value of a register from the
  * register offset array in the gpudev node
  * @adreno_dev:		Pointer to the the adreno device
- * @offset_name:	The register enum whore offset is returned
+ * @offset_name:	The register enum whose offset is returned
  */
 static inline unsigned int adreno_getreg(struct adreno_device *adreno_dev,
 				enum adreno_regs offset_name)
